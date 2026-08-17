@@ -67,3 +67,4 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: Reflex_Font_Package_Viewer_${{ matrix.arch }}.zip
+          token: ${{ secrets.GITHUB_TOKEN }}
