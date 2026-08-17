@@ -2,6 +2,7 @@
 [![Platform](https://img.shields.io/badge/platform-Windows-0078D6)](https://github.com/daniilkorochansky/reflex-font-package-viewer)
 [![Build](https://github.com/daniilkorochansky/reflex-font-package-viewer/actions/workflows/build.yml/badge.svg)](https://github.com/daniilkorochansky/reflex-font-package-viewer/actions/workflows/build.yml)
 [![Latest Release](https://img.shields.io/github/v/release/daniilkorochansky/reflex-font-package-viewer?display_name=tag)](https://github.com/daniilkorochansky/reflex-font-package-viewer/releases)
+[![License](https://img.shields.io/github/license/daniilkorochansky/reflex-font-package-viewer)](https://github.com/daniilkorochansky/reflex-font-package-viewer/blob/main/LICENSE)
 
 # Reflex Font Package Viewer
 <img width="700" height="492" alt="overview" src="https://github.com/user-attachments/assets/1bfc5c81-963e-4bca-aeac-5b58b557a527" />
