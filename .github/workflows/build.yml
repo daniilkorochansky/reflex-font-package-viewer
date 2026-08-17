@@ -1,4 +1,4 @@
-name: Build FPACK Editor
+name: Build Reflex Font Package Viewer
 
 on:
   workflow_dispatch:
@@ -43,24 +43,24 @@ jobs:
             --clean ^
             --onefile ^
             --windowed ^
-            --name "FPACK_Editor" ^
-            --icon "FPACK_Editor.ico" ^
+            --name "Reflex Font Package Viewer" ^
+            --icon "icon.ico" ^
             --version-file "version_info.txt" ^
-            fpack_editor.py
+            fpack_viewer.py
 
       - name: Package ZIP
         shell: pwsh
         run: |
-          Compress-Archive -Path "dist/FPACK_Editor.exe" -DestinationPath "BXML_FPACK_Tools_FPACK_Editor_${{ matrix.arch }}.zip"
+          Compress-Archive -Path "dist/Reflex Font Package Viewer.exe" -DestinationPath "Reflex_Font_Package_Viewer_${{ matrix.arch }}.zip"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: FPACK_Editor_${{ matrix.arch }}
-          path: BXML_FPACK_Tools_FPACK_Editor_${{ matrix.arch }}.zip
+          name: Reflex Font Package Viewer_${{ matrix.arch }}
+          path: Reflex_Font_Package_Viewer_${{ matrix.arch }}.zip
 
       - name: Add release assets
         if: startsWith(github.ref, 'refs/tags/v')
         uses: softprops/action-gh-release@v2
         with:
-          files: BXML_FPACK_Tools_FPACK_Editor_${{ matrix.arch }}.zip
+          files: Reflex_Font_Package_Viewer_${{ matrix.arch }}.zip
