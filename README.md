@@ -27,6 +27,8 @@ A tool for viewing and replacing character resources in the data.fpack file for 
 ### 3. Edit
 <img width="760" height="760" alt="changed" src="https://github.com/user-attachments/assets/d5a17e9c-d3d2-43c7-bf27-4c5e0fe2782f" />
 
+**Important:** When editing the “rider name” characters, the background must be identical to the original. 
+
 ### 4. Import
 <img width="700" height="492" alt="image" src="https://github.com/user-attachments/assets/184caadb-f74b-403c-86cf-cecb193301d7" />
 
@@ -35,13 +37,3 @@ A tool for viewing and replacing character resources in the data.fpack file for 
 
 ### Result
 <img width="870" height="663" alt="result" src="https://github.com/user-attachments/assets/b8c634a7-0470-4201-a303-1c03b5cf3712" />
-
-## Notes About Fonts
-+ **Rider Number:** Bike Number characters are exported as RGBA PNGs. The visible grayscale
-appearance is stored in RGB and the character coverage is stored in alpha.
-Editing the exported PNG in a graphics editor and importing it back preserves
-both parts of the character.
-
-+ **Rider Name:** Rider Name characters are displayed and exported as grayscale artwork with
-zero-valued background pixels transparent. Rider Number characters remain
-RGBA, with plane 0 providing intensity and plane 1 providing coverage.
