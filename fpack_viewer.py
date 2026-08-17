@@ -1,5 +1,24 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# -------------------------------------------------------------------------------------------------------------------
+#   Reflex Font Package Viewer — A tool for viewing the character resources in the data.fpack.
+#   Copyright (C) 2026  Daniil Korochansky
+#
+#   This file is part of Reflex Font Package Viewer.
+#
+#   Reflex Font Package Viewer is free software: you can redistribute it and/or modify
+#   it under the terms of the GNU General Public License as published by
+#   the Free Software Foundation, either version 3 of the License, or
+#   (at your option) any later version.
+#
+#   Reflex Font Package Viewer is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU General Public License for more details.
+#
+#   You should have received a copy of the GNU General Public License
+#   along with Reflex Font Package Viewer.  If not, see <https://www.gnu.org/licenses/>.
+# -------------------------------------------------------------------------------------------------------------------
 
 from __future__ import annotations
 
@@ -638,7 +657,7 @@ class Editor(wx.Frame):
     def about(self, _):
         wx.MessageBox(
             "Reflex Font Package Viewer\n\n"
-            "A program for viewing the character resources in the data.fpack file for the game MX vs ATV: Reflex.\n\nVersion: 1.0.0\nAuthor: Daniil Korochansky\nLicense: GNU General Public License v3.0",
+            "A tool for viewing the character resources in the data.fpack file for the game MX vs ATV: Reflex.\n\nVersion: 1.0.0\nAuthor: Daniil Korochansky\nLicense: GNU General Public License v3.0",
             "About",
             wx.OK | wx.ICON_INFORMATION,
         )
