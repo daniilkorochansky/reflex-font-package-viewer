@@ -11,7 +11,7 @@ A tool for viewing and replacing character resources in the data.fpack file for 
 
 ## Features
 + Edit data.fpack
-+ Build data.fpack
++ Rebuild data.fpack
 + Export and import сharacter кesources
 + Character resource viewer
 
