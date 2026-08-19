@@ -10,11 +10,10 @@
 A tool for viewing and replacing character resources in the data.fpack file for the game MX vs ATV: Reflex
 
 ## Features
-
++ Edit data.fpack
++ Build data.fpack
 + Export and import сharacter кesources
 + Character resource viewer
-+ Build data.fpack
-+ Open data.fpack
 
 ## Quick Start
 ### 1. Open the Font Package file
