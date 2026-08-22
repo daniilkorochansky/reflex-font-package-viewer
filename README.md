@@ -15,6 +15,11 @@ A tool for viewing and replacing character resources in the data.fpack file for 
 + Export and import сharacter кesources
 + Character resource viewer
 
+## Installation
+1. Download the latest release.
+2. Unzip the archive containing the executable file to any location.
+3. Run `Reflex Font Package Viewer.exe`.
+
 ## Quick Start
 ### 1. Open the Font Package file
 <img width="946" height="533" alt="image" src="https://github.com/user-attachments/assets/2697fc95-9fae-458a-a2cd-7cd839871bd0" />
